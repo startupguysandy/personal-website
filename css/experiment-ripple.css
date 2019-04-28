@@ -2,6 +2,7 @@
  position: relative;
  overflow: hidden;
 }
+
 [ripple] .ripple--container {
  position: absolute;
  top     : 0;
@@ -9,6 +10,7 @@
  bottom  : 0;
  left    : 0;
 }
+
 [ripple] .ripple--container span {
  transform       : scale(0);
  border-radius   : 100%;
@@ -17,6 +19,7 @@
  background-color: #fff;
  animation       : ripple 1000ms;
 }
+
 @keyframes ripple {
  to {
    opacity  : 0;
