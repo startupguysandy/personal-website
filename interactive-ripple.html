@@ -2,19 +2,30 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <!-- Mustard UI and Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/mustard-ui@latest/dist/css/mustard-ui.min.css">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/general-style.css">
     <link rel="stylesheet" href="css/experiment-ripple.css">
     <title>Andy's Developer Playground</title>
   </head>
   <body>
-    <h1>Ripple Experiment</h1>
-    <p>I saw the ripple animation YouTube had on their buttons and really liked how the animation was simple while also portraying when an action had actually happened.</p>
-    <p>Rather than implement the material design example code from Googles website I decided to research and implement the animation myself, the end result is a smooth animation which is lightweight as well as teaching me some really important css as well as Javascript classes.</p>
-    <p>For example I learnt how about the debounce functionality, which is a really important concept.</p>
+    <div class="main container">
+      <h1>Ripple Experiment</h1>
+      <div class="row">
+        <div class="col col-sm-12">
+          <p>I saw the ripple animation YouTube had on their buttons and really liked how the animation was simple while also portraying when an action had actually happened.</p>
+          <p>Rather than implement the material design example code from Googles website I decided to research and implement the animation myself, the end result is a smooth animation which is lightweight as well as teaching me some really important css as well as Javascript classes.</p>
+          <p>For example I learnt how about the debounce functionality, which is a really important concept.</p>
 
-    <button ripple>
-      Interact with me
-    </button>
+          <button ripple>
+            Interact with me
+          </button>
+        </div>
+      </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/general-script.js"></script>

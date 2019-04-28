@@ -7,6 +7,10 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.container {
+  width: 100%;
+}
+
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Amatic SC', cursive;
   font-weight: 700;
@@ -23,10 +27,13 @@ p {
 
 button {
   position: relative;
-  display: inline-block;
   outline: none;
-  padding: 1.2em 2em;
+  height: auto;
+  line-height: 1em;
+  padding: 1.4em 2em 1.2em;
+  font-size: 0.8em;
   text-align: center;
+  letter-spacing: inherit;
   color: #ffffff;
   border: none;
   border-radius: 4px;
