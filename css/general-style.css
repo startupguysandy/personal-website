@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Josefin+Sans:400,400i,600,600i,700,700i');
+
 body {
     min-height: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  margin: 0 0 0.5em 0;
+}
+
+h1 {
+  font-size: 4em;
 }
 
 p {
@@ -11,6 +24,7 @@ p {
 button {
   position: relative;
   display: inline-block;
+  outline: none;
   padding: 1.2em 2em;
   text-align: center;
   color: #ffffff;
