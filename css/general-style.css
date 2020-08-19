@@ -5,6 +5,8 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: 'Open Sans', sans-serif;
+    background-color: #252934;
+    color: #ffffff;
 }
 
 .container {
@@ -12,9 +14,10 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
+  margin: 0 0 0.5em 0;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
-  margin: 0 0 0.5em 0;
+  color: #ffffff;
 }
 
 h1 {
@@ -40,10 +43,6 @@ button {
   background: linear-gradient(135deg, #6e8efb, #a777e3);
 }
 
-header {
-  background-color: #252934;
-}
-
 header .title,
 header .subtitle {
   color: #ffffff;
@@ -58,6 +57,13 @@ header .title span {
 
 header .subtitle {
   margin-top: 20px;
+  line-height: 140%;
+}
+
+footer {
+  text-align: center;
+  color: #ffffff;
+  background-color: #1b242f;
 }
 
 @media (min-width: 768px) {
